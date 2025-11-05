@@ -17,8 +17,8 @@ npm run dev
 ```
 
 ### Open
-- Frontend: http://52.66.16.153:3000
-- Backend:  http://52.66.16.153:5000
+- Frontend: http://localhost:3000
+- Backend:  http://localhost:5000
 
 Vite proxy forwards `/api/*` and `/socket.io` to backend, so the frontend code uses relative paths and websocket just works.
 

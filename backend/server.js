@@ -50,6 +50,6 @@ app.use("/api/books", booksRouter);
 // ports
 const PORT = process.env.PORT || 5000;
 httpServer.listen(PORT, "0.0.0.0", () => {
-  console.log(`✅ Backend running on http:/52.66.16.153:${PORT}`);
+  console.log(`✅ Backend running on http:/localhost:${PORT}`);
 });
 
